@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "eekpodo/django:latest"
+        DOCKER_IMAGE = "nkay8/myapp:latest"
     }
 
     stages {
